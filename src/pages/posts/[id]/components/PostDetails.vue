@@ -19,7 +19,7 @@
       </q-avatar>
       <div class="q-ml-md">
         <div>짐코딩</div>
-        <div class="text-grey-6">3일 전</div>
+        <div class="text-grey-6">2일 전</div>
       </div>
       <q-space />
       <q-btn icon="more_horiz" round flat>
