@@ -7,6 +7,7 @@
         color="primary"
         text-color="white"
         class="full-width"
+        @click="$emit('openWriteDialog')"
       >
         <q-avatar
           class="q-mr-sm"
@@ -72,6 +73,8 @@
 <script setup>
 import StickySideBar from 'src/components/StickySideBar.vue';
 import { ref } from 'vue';
+
+defineEmits(['openWriteDialog']);
 
 const tags = ref([
   { name: 'vuejs', count: 10 },
